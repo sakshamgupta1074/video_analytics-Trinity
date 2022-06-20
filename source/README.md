@@ -8,4 +8,6 @@
 
 3. There are different files for each component (python files are named accordingly). With running these files using the command "python <filename.py>", one can see the output of the desired component.
 
-4. We also have one python file named "sql_connect.py" which will be used to connect the SQL database and add all the activities inside the database with their necessary columns.
+4. We also have one python file named "sql_connect.py" which will be used to connect the SQL database and will also enter all the scanned activities through cctv camera feed inside the database with their necessary columns.
+  
+5. This data will be then visible to the Security Personnel and raise the alarm to alert everyone near the premises.
