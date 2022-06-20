@@ -1,18 +1,47 @@
+<div id="top"></div>
+
 # Prototype Submission for Video Analytics - by Team Trinity
+
+| :point_up:    | Remember to not forget! Before runnning the code, Please refer to the Prototype Presentation file present in the source folder of this repo to understand the working of the prototype.|
+|---------------|:------------------------|
 
 ## Steps to Run the code:
 
 1. Clone this github repository using "git clone <name_of_the_repo.git>".
 
-2. After cloning, get inside the main folder of the code repository. Download the weights from the links provided below and store them in the main working directory. Links:
-  - https://github.com/swghosh/DeepFace/releases
-  - https://github.com/patrick013/Object-Detection---Yolov3/blob/master/model/yolov3.weights
+2. After cloning the repo, get inside the source folder of the main repository. 
+
+<table>
+  <thead>
+    <tr>
+      <td align="left">
+        :information_source: Information
+      </td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Download the weights from the links provided below and store them in the main working directory
+        <ul>
+          <li>https://github.com/swghosh/DeepFace/releases</li>
+          <li>https://github.com/patrick013/Object-Detection---Yolov3/blob/master/model/yolov3.weights</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 3. There are different files for each component (python files are named accordingly). With running these files using the command "python <filename.py>", one can see the output of the desired component.
 
-4. We also have one python file named "sql_connect.py" which will be used to connect the SQL database and will also enter all the scanned activities through cctv camera feed inside the database with their necessary columns. Before running this file, make sure MySQL database is installed in the system.
+4. We also have one python file named "sql_connect.py" which will be used to connect the SQL database and will also enter all the scanned activities through cctv camera feed inside the database with their necessary columns.
+
+| :memo:        | Before running the above file, make sure MySQL database is installed in the system.|
+|---------------|:------------------------|
   
 5. This data will be then visible to the Security Personnel and raise the alarm to alert everyone near the premises.
+
 
 
 ## Algorithms used and their applications in the prototype:
@@ -30,3 +59,12 @@
 6. <ins>Optical Character Recognition (OCR)</ins>: Time taken for activity on-premises can be calculated by extracting the timestamp present in the frame using OCR.
 
 7. <ins>MySQL Database</ins>: Used for storing all the information obtained from different modules.
+
+
+## Contact
+
+**Submitted By**: Saksham Gupta; Kritika Ahuja; Shiva Thavani
+
+**Email**: sakshamgupta1074@gmail.com; kritikaahuja.287@gmail.com; thavani.shiva3@gmail.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
