@@ -23,7 +23,7 @@
   <tbody>
     <tr>
       <td>
-        Download the weights from the links provided below and store them in the main working directory
+        Download the weights from the links provided below and store them in the working directory
         <ul>
           <li>https://github.com/swghosh/DeepFace/releases</li>
           <li>https://github.com/patrick013/Object-Detection---Yolov3/blob/master/model/yolov3.weights</li>
