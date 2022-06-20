@@ -17,16 +17,16 @@
 
 ## Algorithms used and their applications in the prototype:
 
-1. <u>Anomaly Detection</u>: A deep learning model based on the YOLOv3 algorithm that processes a video frame-by-frame to detect such anomalies in real-time and generate an alert for the concerned authorities.
+1. <ins>Anomaly Detection</ins>: A deep learning model based on the YOLOv3 algorithm that processes a video frame-by-frame to detect such anomalies in real-time and generate an alert for the concerned authorities.
 
-2. Object Detection: A video based fire detection system using the YOLOv3 object detection model. The model was trained on a dataset of approximately 3000 images of fire in various contexts and additional augmented data. YOLOv3 achieved an AP of 89.5% on a test set consisting of fire in high risk and emergency situations and a 97% AP on a test set consisting of single flame images.
+2. <ins>Object Detection</ins>: A video based fire detection system using the YOLOv3 object detection model. The model was trained on a dataset of approximately 3000 images of fire in various contexts and additional augmented data. YOLOv3 achieved an AP of 89.5% on a test set consisting of fire in high risk and emergency situations and a 97% AP on a test set consisting of single flame images.
 
-3. Face Detection: Face recognition is used to track down and identify known facilitators.  A facilitator detects miscreants, works on alarms triggered, and takes action on them.
+3. <ins>Face Detection</ins>: Face recognition is used to track down and identify known facilitators.  A facilitator detects miscreants, works on alarms triggered, and takes action on them.
 
-4. Scene Detection: A module to detect any kind of tampering with the camera like focus settings,  alteration of video content, or concealing an object. The output of the module will provide the timestamp of the tampering.
+4. <ins>Scene Detection</ins>: A module to detect any kind of tampering with the camera like focus settings,  alteration of video content, or concealing an object. The output of the module will provide the timestamp of the tampering.
 
-5. Keypoint Detection: This module provides the count of people present in the frame at the moment. It also assigns an ID to each individual present in the frame.
+5. <ins>Keypoint Detection</ins>: This module provides the count of people present in the frame at the moment. It also assigns an ID to each individual present in the frame.
 
-6. Optical Character Recognition (OCR): Time taken for activity on-premises can be calculated by extracting the timestamp present in the frame using OCR.
+6. <ins>Optical Character Recognition (OCR)</ins>: Time taken for activity on-premises can be calculated by extracting the timestamp present in the frame using OCR.
 
-7. MySQL Database: Used for storing all the information obtained from different modules.
+7. <ins>MySQL Database</ins>: Used for storing all the information obtained from different modules.
