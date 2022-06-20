@@ -14,9 +14,10 @@
   
 5. This data will be then visible to the Security Personnel and raise the alarm to alert everyone near the premises.
 
+
 ## Algorithms used and their applications in the prototype:
 
-1. Anomaly Detection: A deep learning model based on the YOLOv3 algorithm that processes a video frame-by-frame to detect such anomalies in real-time and generate an alert for the concerned authorities.
+1. <u>Anomaly Detection</u>: A deep learning model based on the YOLOv3 algorithm that processes a video frame-by-frame to detect such anomalies in real-time and generate an alert for the concerned authorities.
 
 2. Object Detection: A video based fire detection system using the YOLOv3 object detection model. The model was trained on a dataset of approximately 3000 images of fire in various contexts and additional augmented data. YOLOv3 achieved an AP of 89.5% on a test set consisting of fire in high risk and emergency situations and a 97% AP on a test set consisting of single flame images.
 
