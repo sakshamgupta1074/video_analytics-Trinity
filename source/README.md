@@ -4,7 +4,9 @@
 
 1. Clone this github repository using "git clone <name of the repo>".
 
-2. After cloning, get inside the main folder of the code repository.
+2. After cloning, get inside the main folder of the code repository. Download the weights from the links provided below and store them in the main working directory. Links:
+  - https://github.com/swghosh/DeepFace/releases
+  - 
 
 3. There are different files for each component (python files are named accordingly). With running these files using the command "python <filename.py>", one can see the output of the desired component.
 
