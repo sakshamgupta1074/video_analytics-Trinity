@@ -2,7 +2,7 @@
 
 ## Steps to Run the code:
 
-1. Clone this github repository using "git clone <nameoftherepo.git>".
+1. Clone this github repository using "git clone <name_of_the_repo.git>".
 
 2. After cloning, get inside the main folder of the code repository. Download the weights from the links provided below and store them in the main working directory. Links:
   - https://github.com/swghosh/DeepFace/releases
